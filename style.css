@@ -27,7 +27,10 @@ body {
   width: 30rem;
   height: 30rem;
   margin-bottom: 2rem;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga del círculo */
 }
+
 
 .title {
   font-size: 3.6rem;
